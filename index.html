@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="NEXO Grow Supply: demostración de tienda +18 de accesorios, conservación y productos CBD ficticios.">
+  <meta name="theme-color" content="#111310">
+  <title>NEXO / Grow Supply</title>
+  <link rel="icon" href="assets/logo-nexo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/style.css">
+  <script src="JS/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <div class="age-gate" data-age-gate role="dialog" aria-modal="true" aria-labelledby="age-title">
+    <div class="age-panel">
+      <div class="age-code">NEXO // ACCESS_CHECK</div>
+      <img src="assets/logo-nexo.svg" alt="" width="64" height="64">
+      <p class="kicker">Sitio demostrativo para adultos</p>
+      <h1 id="age-title">¿Tienes 18 años<br>o más?</h1>
+      <p>Esta demo muestra accesorios para fumadores y productos ficticios de CBD. No realiza ventas ni ofrece recomendaciones de consumo.</p>
+      <div class="age-actions">
+        <button type="button" data-age-accept>Sí, soy mayor de 18</button>
+        <button type="button" data-age-decline>No, salir</button>
+      </div>
+      <small>Al entrar confirmas únicamente tu mayoría de edad. Proyecto conceptual de Graciani Web Studio.</small>
+    </div>
+  </div>
+
+  <div class="demo-ticker" aria-label="Aviso de demostración">
+    <div>DEMO / SIN VENTA REAL <span>✳</span> SOLO MAYORES DE 18 <span>✳</span> PRODUCTOS Y PRECIOS FICTICIOS <span>✳</span> DEMO / SIN VENTA REAL <span>✳</span></div>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Nexo, inicio">
+      <img src="assets/logo-nexo.svg" alt="" width="46" height="46">
+      <span><b>NEXO</b><small>Grow Supply / 18+</small></span>
+    </a>
+    <button class="menu-toggle" type="button" data-menu-toggle aria-label="Abrir menú" aria-expanded="false"><span></span><span></span></button>
+    <nav data-nav aria-label="Navegación principal">
+      <a href="#departamentos">Departamentos</a>
+      <a href="#catalogo">Novedades</a>
+      <a href="#tienda">La tienda</a>
+      <a href="#ayuda">Ayuda</a>
+    </nav>
+    <button class="cart-trigger" type="button" data-cart-open aria-label="Abrir carrito">
+      <span>Carrito</span><b data-cart-count>0</b>
+    </button>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="inicio">
+      <img src="assets/hero-nexo.png" alt="Accesorios de diseño y productos CBD ficticios de Nexo" width="2048" height="1024">
+      <div class="hero-grid">
+        <div class="hero-index"><span>DROP</span><b>001</b><small>2026 / DEMO</small></div>
+        <div class="hero-copy">
+          <p class="kicker">Accesorios / CBD / Conservación</p>
+          <h1>TU<br>ESPACIO.<br><i>TUS REGLAS.</i></h1>
+          <p>Accesorios, conservación y una selección directa para montar el espacio a tu manera.</p>
+          <a href="#catalogo">Explorar drop <span>↘</span></a>
+        </div>
+      </div>
+      <div class="hero-specs"><span>[01] Selección técnica</span><span>[02] Diseño funcional</span><span>[03] Compra demo</span></div>
+    </section>
+
+    <section class="service-strip" aria-label="Servicios de muestra">
+      <article><span>01</span><div><b>ATENCIÓN DIRECTA</b><small>Orientación para elegir el equipo adecuado</small></div></article>
+      <article><span>02</span><div><b>ENVÍO 24/48H</b><small>Condición de ejemplo para una tienda real</small></div></article>
+      <article><span>03</span><div><b>PAGO SEGURO</b><small>Integración prevista, no activa en esta demo</small></div></article>
+      <article><span>04</span><div><b>RECOGIDA LOCAL</b><small>Punto físico de muestra en Sevilla</small></div></article>
+    </section>
+
+    <section class="manifesto" id="sistema">
+      <div class="manifesto-label">NEXO — SYSTEM_01</div>
+      <div class="manifesto-copy"><p>No vendemos una estética.</p><h2>Seleccionamos herramientas que hacen bien una cosa.</h2></div>
+      <div class="manifesto-meta"><span>06 referencias</span><span>03 familias</span><span>01 criterio</span></div>
+    </section>
+
+    <section class="departments" id="departamentos">
+      <header class="departments-head">
+        <div><p class="kicker">Compra por departamento</p><h2>TODO EL SISTEMA.<br>POR PARTES.</h2></div>
+        <p>Una arquitectura de tienda preparada para crecer. Cada departamento agrupa las herramientas por función para encontrar lo necesario sin recorrer un catálogo interminable.</p>
+      </header>
+      <div class="department-grid">
+        <a href="#catalogo" data-department="accesorios"><span>01 / EQUIPO</span><h3>ACCESORIOS</h3><p>Grinders, papel, filtros, básculas, bandejas y herramientas.</p><b>VER SELECCIÓN ↘</b></a>
+        <a href="#catalogo"><span>02 / AMBIENTE</span><h3>VENTILACIÓN</h3><p>Extracción, circulación de aire, control ambiental y filtrado.</p><b>PRÓXIMAMENTE ↘</b></a>
+        <a href="#catalogo"><span>03 / ENERGÍA</span><h3>ILUMINACIÓN</h3><p>Luminarias LED, temporizadores, reflectores y componentes.</p><b>PRÓXIMAMENTE ↘</b></a>
+        <a href="#catalogo"><span>04 / AGUA</span><h3>RIEGO</h3><p>Bombas, depósitos, bandejas, medición y tratamiento de agua.</p><b>PRÓXIMAMENTE ↘</b></a>
+        <a href="#catalogo"><span>05 / BASE</span><h3>SUSTRATOS</h3><p>Sustratos técnicos, macetas, soportes y complementos.</p><b>PRÓXIMAMENTE ↘</b></a>
+        <a href="#catalogo" data-department="cbd"><span>06 / ADULTO</span><h3>CBD DEMO</h3><p>Exposición conceptual y accesorios para uso adulto responsable.</p><b>VER SELECCIÓN ↘</b></a>
+      </div>
+    </section>
+
+    <section class="brand-rail" aria-label="Marcas de muestra">
+      <span>MARCAS / DEMO</span><b>AXIS LAB</b><b>LOWKEY</b><b>NEUTRA</b><b>RAWFORM</b><b>MODULAR</b>
+    </section>
+
+    <section class="catalog" id="catalogo">
+      <aside class="catalog-aside">
+        <div><p class="kicker">Inventario actual</p><h2>DROP<br>001</h2><span data-results-count>06 / PRODUCTOS</span></div>
+        <div class="filter-stack" role="group" aria-label="Filtrar productos">
+          <button class="active" type="button" data-filter="todos"><span>00</span> Todo</button>
+          <button type="button" data-filter="accesorios"><span>01</span> Accesorios</button>
+          <button type="button" data-filter="conservacion"><span>02</span> Conservación</button>
+          <button type="button" data-filter="cbd"><span>03</span> CBD demo</button>
+        </div>
+        <label class="catalog-search"><span>BUSCAR_</span><input type="search" data-search aria-label="Buscar producto" placeholder="nombre / tipo"></label>
+      </aside>
+
+      <div class="product-grid" data-product-grid>
+        <article class="product" data-category="accesorios" data-name="grinder cnc cuatro piezas negro aluminio">
+          <div class="product-image sprite sprite-1"><span>01</span></div>
+          <header><div><small>ACCESORIOS / CNC</small><h3>GRINDER 4P</h3></div><strong>24,90 €</strong></header>
+          <p>Aluminio anodizado · 55 mm · Cierre magnético.</p>
+          <button type="button" data-add data-id="grinder" data-product="Grinder 4P">AÑADIR <span>＋</span></button>
+        </article>
+        <article class="product" data-category="accesorios" data-name="paper kit papeles filtros kraft">
+          <div class="product-image sprite sprite-2"><span>02</span></div>
+          <header><div><small>ACCESORIOS / PAPEL</small><h3>PAPER KIT</h3></div><strong>4,50 €</strong></header>
+          <p>Papel sin blanquear · Filtros de cartón · Formato slim.</p>
+          <button type="button" data-add data-id="paper" data-product="Paper Kit">AÑADIR <span>＋</span></button>
+        </article>
+        <article class="product" data-category="conservacion" data-name="archive jar tarro cristal hermetico conservación">
+          <div class="product-image sprite sprite-3"><span>03</span></div>
+          <header><div><small>CONSERVACIÓN / VIDRIO</small><h3>ARCHIVE JAR</h3></div><strong>14,90 €</strong></header>
+          <p>Vidrio hermético · Junta de silicona · 500 ml.</p>
+          <button type="button" data-add data-id="jar" data-product="Archive Jar">AÑADIR <span>＋</span></button>
+        </article>
+        <article class="product" data-category="accesorios" data-name="vapo pocket vaporizador negro compacto">
+          <div class="product-image sprite sprite-4"><span>04</span><b>NEW</b></div>
+          <header><div><small>ACCESORIOS / DEVICE</small><h3>VAPO POCKET</h3></div><strong>59,00 €</strong></header>
+          <p>Dispositivo demostrativo · Diseño compacto · USB-C.</p>
+          <button type="button" data-add data-id="vapo" data-product="Vapo Pocket">AÑADIR <span>＋</span></button>
+        </article>
+        <article class="product" data-category="cbd" data-name="atlas cbd flor botanica cinco gramos">
+          <div class="product-image sprite sprite-5"><span>05</span><b>CBD</b></div>
+          <header><div><small>CBD DEMO / BOTÁNICA</small><h3>ATLAS CBD 5G</h3></div><strong>18,00 €</strong></header>
+          <p>Producto ficticio de exposición · Sin venta ni alegaciones.</p>
+          <button type="button" data-add data-id="atlas" data-product="Atlas CBD 5g">AÑADIR <span>＋</span></button>
+        </article>
+        <article class="product" data-category="accesorios" data-name="stone tray cenicero ceramica oscuro">
+          <div class="product-image sprite sprite-6"><span>06</span></div>
+          <header><div><small>ACCESORIOS / CERÁMICA</small><h3>STONE TRAY</h3></div><strong>21,00 €</strong></header>
+          <p>Cerámica de alta densidad · Acabado mineral · 12 cm.</p>
+          <button type="button" data-add data-id="tray" data-product="Stone Tray">AÑADIR <span>＋</span></button>
+        </article>
+        <p class="no-results" data-no-results hidden>NO_RESULTS / Prueba con otro término.</p>
+      </div>
+    </section>
+
+    <section class="criteria" id="criterio">
+      <header><p class="kicker">Criterio de selección</p><h2>MENOS PRODUCTOS.<br>MÁS INFORMACIÓN.</h2></header>
+      <div class="criteria-grid">
+        <article><span>01 / MATERIAL</span><h3>Sin disfraces</h3><p>Metal, vidrio, papel y cerámica. La ficha explica qué estás viendo, sin nombres vacíos.</p></article>
+        <article><span>02 / USO</span><h3>Función primero</h3><p>Cada referencia resuelve una necesidad concreta de preparación, conservación o uso adulto.</p></article>
+        <article><span>03 / CONTEXTO</span><h3>Información clara</h3><p>Esta web es una demostración. Una tienda real debe adaptar catálogo y condiciones a la normativa aplicable.</p></article>
+      </div>
+    </section>
+
+    <section class="shop-info" id="tienda">
+      <div class="shop-info-index"><span>NEXO / ABOUT_01</span><b>SEV</b><small>TIENDA DE MUESTRA</small></div>
+      <div class="shop-info-main">
+        <p class="kicker">Grow supply conceptual en Sevilla</p>
+        <h2>EQUIPO, INFORMACIÓN<br>Y ATENCIÓN SIN VUELTAS.</h2>
+        <div class="shop-columns">
+          <p>NEXO presenta cómo podría funcionar una tienda especializada con catálogo organizado, fichas claras y una experiencia de compra directa. La selección combina accesorios para adultos con equipamiento de horticultura técnica.</p>
+          <p>Una versión real incorporaría asesoramiento profesional, inventario, métodos de pago, condiciones de envío, recogida en tienda y toda la documentación legal necesaria para cada categoría.</p>
+        </div>
+        <div class="shop-facts">
+          <div><span>CATÁLOGO</span><b>Accesorios, iluminación, ventilación, riego y sustratos</b></div>
+          <div><span>ATENCIÓN</span><b>Ayuda antes y después de la compra</b></div>
+          <div><span>UBICACIÓN</span><b>Sevilla · Dirección pendiente en la demo</b></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="help" id="ayuda">
+      <header><p class="kicker">Información útil</p><h2>ANTES DE COMPRAR.</h2></header>
+      <div class="help-list">
+        <details open><summary><span>01</span>¿Puedo comprar en esta página?<b>＋</b></summary><p>No. NEXO es una demostración de portfolio. El carrito permite probar la experiencia, pero no guarda pedidos, cobra pagos ni envía datos.</p></details>
+        <details><summary><span>02</span>¿Los productos y precios son reales?<b>＋</b></summary><p>No. Las referencias, marcas, precios y existencias son ficticios y sirven únicamente para presentar el diseño de una tienda online.</p></details>
+        <details><summary><span>03</span>¿Qué incluiría una tienda operativa?<b>＋</b></summary><p>Catálogo e inventario reales, cuentas de cliente, pago seguro, métodos de envío, devoluciones, atención y textos legales adaptados al negocio.</p></details>
+        <details><summary><span>04</span>¿Qué ocurre con los productos +18 y CBD?<b>＋</b></summary><p>Una tienda real debe verificar la normativa aplicable, limitar el acceso cuando corresponda y describir cada producto sin afirmaciones médicas no autorizadas.</p></details>
+      </div>
+    </section>
+
+    <section class="legal-note">
+      <div class="legal-mark">18+</div>
+      <div><p class="kicker">Demo responsable</p><h2>Esto no es una tienda real.</h2><p>Los productos, precios y existencias son ficticios. No se procesan pagos ni pedidos. El producto CBD mostrado es conceptual y no incluye afirmaciones terapéuticas.</p></div>
+      <span>NEXO / NOTICE_01</span>
+    </section>
+  </main>
+
+  <footer id="contacto">
+    <div class="footer-brand"><img src="assets/logo-nexo.svg" alt="" width="54" height="54"><div><b>NEXO</b><span>GROW SUPPLY / DEMO</span></div></div>
+    <div><small>CONTACTO DEL CREADOR</small><a href="mailto:fernandoga89@gmail.com">fernandoga89@gmail.com</a><a href="tel:+34673998497">673 998 497</a></div>
+    <div><small>SISTEMA</small><a href="#departamentos">Departamentos</a><a href="#catalogo">Novedades</a><a href="#ayuda">Ayuda</a><a href="#inicio">Inicio ↑</a></div>
+    <div class="footer-bottom"><span>© <span data-year></span> NEXO / Proyecto conceptual</span><span>Graciani Web Studio</span></div>
+  </footer>
+
+  <div class="overlay" data-overlay hidden></div>
+  <aside class="cart" data-cart aria-hidden="true" aria-labelledby="cart-title">
+    <header><div><span>CART_SYS</span><h2 id="cart-title">TU SELECCIÓN</h2></div><button type="button" data-cart-close aria-label="Cerrar carrito">×</button></header>
+    <div class="cart-items" data-cart-items></div>
+    <div class="cart-empty" data-cart-empty><b>00</b><h3>CARRITO VACÍO</h3><p>Añade referencias desde el catálogo.</p><button type="button" data-cart-close>VOLVER AL DROP</button></div>
+    <footer class="cart-footer" data-cart-footer hidden><div><span>SUBTOTAL_DEMO</span><strong data-cart-total>0,00 €</strong></div><p>Impuestos, envío y pago no disponibles en esta demostración.</p><button type="button" data-checkout>SIMULAR FINALIZACIÓN <span>↗</span></button></footer>
+  </aside>
+
+  <div class="checkout-modal" data-checkout-modal hidden role="dialog" aria-modal="true" aria-labelledby="checkout-title">
+    <div><span>DEMO_ONLY</span><h2 id="checkout-title">La cesta funciona.<br>La venta no.</h2><p>Esta demostración no procesa pedidos, pagos ni datos personales. En un proyecto real se conectaría aquí la pasarela y el sistema de inventario.</p><button type="button" data-checkout-close>ENTENDIDO</button></div>
+  </div>
+  <div class="toast" data-toast role="status" aria-live="polite">Producto añadido</div>
+</body>
+</html>

@@ -1,5 +1,3 @@
-# NEXO-Grow-Supply
-Demo de página web de un growshop. Diseño responsive con servicios, contacto por WhatsApp y solicitud de presupuesto.
 # NEXO / Grow Supply
 
 Sitio web conceptual para una tienda especializada dirigida exclusivamente a mayores de 18 años. El proyecto presenta una experiencia de comercio electrónico con estética industrial, navegación por departamentos, catálogo, filtros, buscador y carrito persistente.
